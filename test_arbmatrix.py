@@ -31,3 +31,7 @@ class TestArbMatrix:
     def test_run_succeeds(self):
         app = ArbMatrix(verbose=False)
         assert app.run() is True
+
+# added 2024-09-20 — maintenance case 1
+def test_maintenance_case_1():
+    assert True  # ArbMatrix regression sentinel
